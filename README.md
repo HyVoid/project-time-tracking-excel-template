@@ -8,7 +8,7 @@
 
 > ## **No signup. No installation. Free.**
 >
-> 🌐 **Open in Browser:** HTML interactive version *(Demo link placeholder)*
+> 🌐 **Open in Browser:** → [*HTML interactive version*](https://hyvoid.github.io/Project-Time-Cost-Analysis-Console/)
 >
 > 📥 **Download Excel:** Excel workbook version *(Release/Gumroad link placeholder)*
 
