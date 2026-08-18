@@ -14,22 +14,6 @@
 
 ---
 
-## Screenshots
-
-### Browser Version
-
-<!-- screenshot: browser version -->
-
-*Interactive management cockpit showing project labor utilization, cost center allocation, approval compliance, and operational exceptions.*
-
-### Excel Version
-
-<!-- screenshot: excel version -->
-
-*Excel 365 implementation with dynamic array engine, validation layer, master timesheet warehouse, and executive dashboard.*
-
----
-
 ## What It Helps You Track
 
 * Approved labor hours versus unapproved "shadow work" that never reaches financial reporting.
