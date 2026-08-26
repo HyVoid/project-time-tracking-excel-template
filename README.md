@@ -1,469 +1,202 @@
-# Build a Reliable Project Time Consolidation & Cost Analysis Control Center in Excel
+# Project Time Tracking & Labor Cost Allocation Excel Template: Your Financial Control Center
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-green.svg)
 ![Tool](https://img.shields.io/badge/Tool-Decision%20Support-orange.svg)
 
-**Transform approved project time entries into a single source of truth for labor cost allocation, utilization analysis, and project profitability decisions — with no installation, no signup, and free access via browser or Excel.**
+<p><strong>Transform fragmented timesheets and approved project time entries into a single source of truth for labor cost allocation, resource utilization analysis, and project profitability tracking.</strong> This browser-based tool and downloadable spreadsheet serves as an alternative to expensive PSA (Professional Services Automation) software, offering a definitive financial control center with no installation and no signup required.</p>
 
 **No signup. No installation. Free in your browser.**
 
-Try the browser version for free. If you need the Excel version, you can buy it with a 7-day money-back guarantee.
->
-> 🌐 **Open in Browser:** → [*HTML interactive version*](https://hyvoid.github.io/Project-Time-Cost-Analysis-Console/)
->
-> 📥 **Download Excel:** Excel workbook version *(Release/Gumroad link placeholder)*
+Try the cloud-based interactive dashboard for free. If you need the fully customizable spreadsheet file for your corporate environment, purchase the offline version backed by a 7-day money-back guarantee.
+
+> 🌐 **Live Demo:** → [*Try the Free Interactive Timesheet & Cost Dashboard in Browser*](https://hyvoid.github.io/Project-Time-Cost-Analysis-Console/)
+> 
+> 📥 **Download Template:** [*Download the Reusable Labor Cost Analysis Excel Template (.XLSX)*](Release/Gumroad_link_placeholder)
 
 ---
 
-## What It Helps You Track
+## What It Helps You Track: Project Financial Pain Points vs. Solutions
 
-* Approved labor hours versus unapproved "shadow work" that never reaches financial reporting.
-* Actual project labor cost by employee, project, department, and cost center.
-* Employee utilization and hidden meeting overhead in the same operational view.
-* Unmapped projects and missing master data before they contaminate financial analysis.
-* Billable versus non-billable labor allocation across the organization.
-* Whether existing operational processes are mature enough to justify PSA/ERP investment.
+Instead of simply logging hours, this framework maps operational inefficiencies directly to financial solutions:
+
+* **Pain Point: Unapproved "Shadow Work"** → **Solution:** Tracks submitted but unapproved labor hours that leak out of standard financial reporting and operating margins.
+* **Pain Point: Inaccurate Cost Allocation** → **Solution:** Maps actual project labor costs accurately to the specific employee, project portfolio, department, and accounting cost center.
+* **Pain Point: Invisible Meeting Drain** → **Solution:** Visualizes employee utilization and hidden internal meeting overhead within the same operational dashboard.
+* **Pain Point: Contaminated Financial Data** → **Solution:** Flags unmapped projects and missing master data *before* they corrupt your end-of-month financial reconciliation.
+* **Pain Point: Skewed Profitability** → **Solution:** Differentiates billable versus non-billable labor allocation across the entire organizational resource pool.
+* **Pain Point: Blind Software Purchases** → **Solution:** Audits whether your existing operational workflows are mature enough to justify an enterprise PSA/ERP system investment.
 
 ---
 
-# Why I Built This
+## Quick Start Workflow: How to Audit Your True Labor Costs
 
-Many organizations do not fail because they lack project management systems. They fail because they cannot reliably answer a much simpler question:
+Follow this streamlined tutorial to transform raw timesheets into actionable financial metrics:
 
-> **"How much did this project actually cost us?"**
+1. **Input Timesheet Data (Data Ingestion):** Paste your raw exported project hours from tools like Asana, Jira, or Monday.com directly into the `RAW_ASANA` tab.
+2. **Capture Hidden Overhead (Meeting Tracker):** Log internal meetings and administrative time in the `RAW_MEETING` tab to reveal non-billable utilization leaks.
+3. **Map Cost Centers (Resource Allocation):** Assign employees to specific billing rates, roles, and financial departments in the `EMPLOYEE_MAP` configuration tab.
+4. **Analyze True Margins (Decision Dashboard):** Review the auto-generated `DASHBOARD` to identify missing approvals, correct unallocated hours, and view the *actual* profit margin.
+5. **Standardize Your Process (Call to Action):** Finished your one-time trial audit? 📥 **[Download the fully unlocked Labor Cost Analysis Excel Template](Release/Gumroad_link_placeholder)** to securely run your monthly financial consolidation and project billing cycles repeatedly.
 
-In practice, labor cost allocation often breaks down between three disconnected systems:
+---
 
-* Employees record time in project tools.
-* Managers approve work inconsistently.
-* Finance allocates costs using assumptions and spreadsheets created after the fact.
+## Why I Built This Cost Control Center
 
-The result is a hidden analytical failure: organizations believe they are measuring project profitability when they are actually measuring reporting completeness.
+Many organizations do not fail because they lack project portfolio management (PPM) systems. They fail because they cannot reliably answer a fundamental financial question:
 
-I built this workbook after repeatedly observing the same operational pattern:
+> **"How much did this client project actually cost us in labor?"**
 
-| Reality                            | Reported                               |
-| ---------------------------------- | -------------------------------------- |
-| Employee worked 42 hours           | Only 28 approved hours reached finance |
-| 8 hours spent in client meetings   | Meeting costs disappeared              |
-| Project lacked cost center mapping | Labor cost assigned manually           |
-| Project appeared profitable        | Project actually lost money            |
+In professional services, labor cost allocation often breaks down across disconnected silos:
+1. Employees log time in project management software (task tracking).
+2. Operations managers approve work inconsistently (workflow bottlenecks).
+3. Finance teams allocate costs using assumptions and manual spreadsheets created after the fact (financial reconciliation).
 
-### Before
+The result is a hidden analytical failure: organizations believe they are measuring actual project profitability when they are merely measuring reporting compliance. 
 
-A consulting project reported:
+I built this analytical spreadsheet after repeatedly observing this operational disconnect:
+
+| Operational Reality (Actual Resource Usage) | Financial Reporting (System Data) |
+| ------------------------------------------- | --------------------------------- |
+| Employee worked 42 total billable hours | Only 28 approved hours reached the finance department |
+| 8 hours spent in unlogged client alignment meetings | Non-billable meeting costs disappeared from the ledger |
+| Project lacked formal CRM/Cost Center mapping | Labor expense was assigned manually via guesswork |
+| **Project appeared highly profitable** | **Project actually generated a negative operating margin** |
+
+### Case Study: The Danger of Incomplete Data
+
+A consulting project dashboard reported:
+
+```text
+Recognized Revenue:   $48,000
+System Labor Cost:    $21,000
+Reported Gross Margin: 56%
 
 ```
-Revenue:          $48,000
-Labor Cost:       $21,000
-Reported Margin:  56%
+
+### After Applying Structured Timesheet Validation
+
+```text
+Unapproved "Shadow" Hours:   +38h
+Internal Meeting Overhead:   +17h
+Missing CC Allocation:       +$4,350
+Actual True Labor Cost:      $33,750
+Actual Gross Margin:         30%
+
 ```
 
-### After Applying Structured Validation
-
-```
-Unapproved Hours:      +38h
-Meeting Overhead:      +17h
-Missing Allocation:    +$4,350
-Actual Labor Cost:     $33,750
-Actual Margin:         30%
-```
-
-The decision changed completely.
-
-This workbook is therefore not a reporting dashboard. It is a **productized reasoning framework** for answering a recurring operational question:
-
-> **Which labor costs should be trusted enough to support business decisions?**
+The executive decision regarding this client's profitability changed completely. This workbook is not just a reporting visualization; it is a **productized reasoning framework** for a recurring business operation: *Determining which labor costs are clean enough to support strategic business decisions.*
 
 ---
 
-## Common Project Time & Cost Allocation Problems This Solves
+## Use Cases & Target Scenarios for Labor Cost Tracking
 
-| Problem                        | Without This Tool                        | With This Tool                                 |
-| ------------------------------ | ---------------------------------------- | ---------------------------------------------- |
-| Unapproved timesheets          | Labor costs disappear from reporting     | Approval leakage becomes measurable            |
-| Missing project mappings       | Manual financial allocation              | Automatic cost center assignment               |
-| Employee over-reporting        | Duplicate labor entries remain hidden    | Daily utilization validation catches anomalies |
-| Meeting overhead               | Internal meetings become invisible costs | Meeting time becomes measurable overhead       |
-| Project profitability analysis | Profitability based on incomplete costs  | Profitability based on validated labor cost    |
-| ERP investment decisions       | Decisions based on assumptions           | Decisions based on operational evidence        |
+This tool serves as a bridging solution for specific industry scenarios that fall between basic spreadsheets and heavy enterprise software:
+
+* **Agency Profitability Audits:** Marketing and creative agencies needing to measure actual client retention margins versus expected billable hours.
+* **Pre-ERP Implementation Data Cleansing:** Operations teams preparing to migrate to platforms like NetSuite or Workday, needing a sandbox to clean up cost center mappings.
+* **Consulting Firm Utilization Tracking:** Boutique consulting firms tracking consultant bench time, utilization rates, and project over-servicing (scope creep).
+* **Cross-Department Chargebacks:** IT or internal shared services teams needing to accurately charge back project hours to different business units.
 
 ---
 
-## Who This Is For
+## Who This Is For: Target Roles & Matching Solutions
 
-This tool is designed for:
+This robust framework is purpose-built to match specific professional workflows:
 
-* PMOs managing pilot project accounting processes.
-* Professional services teams with 10–100 employees.
-* Finance teams performing labor cost allocation.
-* Operations managers evaluating PSA or ERP readiness.
-* Organizations running Asana-based delivery workflows.
-* Consultants building project profitability frameworks.
+* **PMO Directors** needing a *project portfolio cost tracking template* to govern pilot project accounting processes.
+* **Operations Managers** searching for a *professional services utilization tracker* to evaluate PSA readiness for a 10–100 employee team.
+* **Financial Controllers** utilizing an *employee timesheet reconciliation spreadsheet* for accurate month-end labor cost allocation.
+* **Delivery Leads** running Asana-based or Jira-based workflows who need a *project profitability analysis framework* that connects tasks to dollars.
 
-This tool is **not** designed for:
+**This tool is NOT designed for:**
 
-* Enterprise ERP replacement.
-* Real-time payroll processing.
-* Multi-country tax compliance.
-* Highly customized PSA implementations.
+* Enterprise ERP replacement (e.g., replacing SAP or Oracle).
+* Real-time automated payroll processing.
+* Multi-country tax compliance and localized statutory reporting.
+* Highly customized, API-driven Professional Services Automation (PSA) implementations.
 
-**No spreadsheet expertise is required. Open the browser version and begin tracking immediately. Excel users can extend the underlying analytical framework as needed.**
-
----
-
-## About
-
-I build lightweight operational decision-support tools for situations where there are too many moving parts to hold reliably in memory.
-
-The central question behind every tool is:
-
-> **"What information needs to exist in one place for the next decision to be made confidently?"**
-
-This Project Time Consolidation & Cost Analysis Control Center is one example of that approach: a reusable analytical framework that transforms fragmented operational data into decision-grade cost information.
+*No advanced spreadsheet formulas expertise is required. Open the browser version and begin auditing immediately. Excel power users can extend the underlying VBA/DAX analytical framework as required.*
 
 ---
 
 ## Technical Details
 
-<details>
-<summary>For technical reviewers, Excel practitioners, and collaborators</summary>
-
 ---
 
-### Workbook Architecture
+### Data Architecture & Workflow
 
 ```text
-Asana / Teams / Outlook
+Source Systems (Asana / Teams / Outlook)
             │
             ▼
-RAW_ASANA
-RAW_MEETING
+RAW_ASANA (Project Time Ingestion)
+RAW_MEETING (Overhead Capture)
             │
             ▼
-EMPLOYEE_MAP
-PROJECT_MAP
-CONFIG
+EMPLOYEE_MAP (Resource Dimensions)
+PROJECT_MAP (Cost Center Logic)
+CONFIG (Global Parameters)
             │
             ▼
-VALIDATION
+VALIDATION (Exception Handling & Rules Engine)
             │
             ▼
-MASTER_TIMESHEET
+MASTER_TIMESHEET (Single Source of Truth Fact Table)
             │
             ▼
-DASHBOARD
+DASHBOARD (Decision Support & Analytics Layer)
+
 ```
 
-| Layer         | Worksheet        | Purpose                         |
-| ------------- | ---------------- | ------------------------------- |
-| Data Staging  | RAW_ASANA        | Approved project time ingestion |
-| Data Staging  | RAW_MEETING      | Meeting time capture            |
-| Master Data   | EMPLOYEE_MAP     | Employee rates and dimensions   |
-| Master Data   | PROJECT_MAP      | Project and cost center mapping |
-| Configuration | CONFIG           | Global settings                 |
-| Validation    | VALIDATION       | Exception detection             |
-| Fact Table    | MASTER_TIMESHEET | Single source of truth          |
-| Analytics     | DASHBOARD        | Decision support layer          |
+| Database Layer | Excel Worksheet | Core Function & SEO Purpose |
+| --- | --- | --- |
+| Data Staging | `RAW_ASANA` | Standardizes approved project time ingestion from CSV exports |
+| Data Staging | `RAW_MEETING` | Captures non-billable meeting time and administrative overhead |
+| Master Data | `EMPLOYEE_MAP` | Defines employee billing rates, roles, and structural dimensions |
+| Master Data | `PROJECT_MAP` | Maps external project IDs to internal financial cost centers |
+| Configuration | `CONFIG` | Establishes global threshold settings for utilization tracking |
+| Validation | `VALIDATION` | Runs automated exception detection for missing/duplicate data |
+| Fact Table | `MASTER_TIMESHEET` | Generates the clean, consolidated single source of truth |
+| Analytics | `DASHBOARD` | Presents the decision support layer for management reporting |
 
 ---
 
-### Three Traps That Catch Even Experienced Project Managers
-
----
+### Three Operational Traps That Catch Experienced Project Managers
 
 #### Trap 1 — Assuming Approved Hours Equal Actual Labor Cost
 
-**Decision made:**
-
-Project profitability approved.
-
-**Faulty assumption:**
-
-Only approved labor was counted.
-
-| Metric | Reported | Actual  |
-| ------ | -------- | ------- |
-| Hours  | 320      | 398     |
-| Cost   | $24,000  | $31,200 |
-| Margin | 41%      | 22%     |
-
-**Why the reasoning fails:**
-
-Approval workflows measure administrative completion, not labor consumption.
-
-**Corrected approach:**
-
-Measure:
-
-```
-Actual Labor =
-Approved Hours
-+ Missing Approvals
-+ Meeting Overhead
-```
-
-<details>
-<summary>Formula logic</summary>
-
-```excel
-=FILTER(
-RAW_ASANA[Hours],
-RAW_ASANA[Approved_Status]="Approved"
-)
-```
-
-```excel
-=SUMIFS(
-RAW_MEETING[Duration_Hours],
-RAW_MEETING[Attendee],
-Employee
-)
-```
-
-</details>
-
----
+* **Decision made:** Project profitability approved.
+* **Faulty assumption:** Only approved labor was counted in the general ledger.
+* **Corrected approach:** Calculate Actual Labor = Approved Hours + Missing Approvals + Meeting Overhead.
 
 #### Trap 2 — Assuming Projects Already Have Financial Ownership
 
-**Decision made:**
-
-Allocate costs by project name.
-
-**Faulty assumption:**
-
-Project names represent accounting structures.
-
-| Project          | Assigned CC | Actual CC |
-| ---------------- | ----------- | --------- |
-| Client Migration | CC104       | Missing   |
-| Internal Upgrade | CC211       | CC305     |
-
-**Why the reasoning fails:**
-
-Operational project structures and financial structures evolve independently.
-
-**Corrected approach:**
-
-Require explicit mapping.
-
-<details>
-<summary>Formula logic</summary>
-
-```excel
-=XLOOKUP(
-Project,
-PROJECT_MAP[Project_Name],
-PROJECT_MAP[Cost_Center],
-"CC_UNKNOWN"
-)
-```
-
-</details>
-
----
+* **Decision made:** Allocate overhead costs by project name.
+* **Faulty assumption:** Project names inherently represent accounting structures. Operational structures and financial structures evolve independently.
+* **Corrected approach:** Require explicit mapping via `PROJECT_MAP` lookup tables.
 
 #### Trap 3 — Assuming Human Timesheets Are Internally Consistent
 
-**Decision made:**
-
-Accept submitted labor records.
-
-**Faulty assumption:**
-
-Employees do not accidentally over-report.
-
-| Employee | Date       | Reported |
-| -------- | ---------- | -------- |
-| EMP004   | 2026-06-14 | 18.5h    |
-| EMP011   | 2026-06-18 | 16.8h    |
-
-**Why the reasoning fails:**
-
-Multiple systems create duplicate reporting opportunities.
-
-**Corrected approach:**
-
-Validate daily aggregation before financial posting.
-
-<details>
-<summary>Formula logic</summary>
-
-```excel
-=FILTER(
-UNIQUE(CHOOSECOLS(RAW_ASANA,2,3)),
-MAP(
-Employee,
-Date,
-LAMBDA(
-emp,
-dt,
-SUMIFS(
-RAW_ASANA[Hours],
-RAW_ASANA[Employee],
-emp,
-RAW_ASANA[Work_Date],
-dt
-)
-)
-)>15
-)
-```
-
-</details>
+* **Decision made:** Blindly accept submitted labor records for invoicing.
+* **Faulty assumption:** Employees do not accidentally over-report across multiple tracking apps.
+* **Corrected approach:** Validate daily aggregation thresholds before financial posting.
 
 ---
 
-### Example Scenario
+## Other Business Operations & Financial Templates in This Series
 
-A 15-person consulting team operates a four-week pilot program.
+* **Inventory Planning & Replenishment Control Center** — Safety stock, reorder point calculation, and working capital optimization template.
+* **Multifamily Acquisition Model** — Real estate investment underwriting, cash flow projection, and scenario analysis spreadsheet.
+* **Google Ads Marketing Truth Audit System** — Digital marketing attribution model and PPC budget validation tracker.
+* **Dual-Track Personal & Business Budget System** — Integrated cash flow forecasting and capital allocation planner.
+* **Cross-Entity Logistics Operations Console** — Global shipment tracking, customs documentation, and supply chain exception management tool.
 
-#### Raw Inputs
-
-| Metric           | Value   |
-| ---------------- | ------- |
-| Employees        | 15      |
-| Approved Hours   | 518h    |
-| Unapproved Hours | 72h     |
-| Meeting Hours    | 86h     |
-| Hourly Cost      | $85     |
-| Revenue          | $72,000 |
-
-#### Intermediate Calculations
-
-```text
-Approved Labor:
-518 × $85 = $44,030
-
-Unapproved Labor:
-72 × $85 = $6,120
-
-Meeting Overhead:
-86 × $85 = $7,310
-
-Actual Labor Cost:
-$57,460
-```
-
-#### Initial Management Conclusion
-
-```text
-Revenue: $72,000
-Reported Cost: $44,030
-Margin: 39%
-```
-
-#### Corrected Conclusion
-
-```text
-Revenue: $72,000
-Actual Cost: $57,460
-Margin: 20%
-```
-
-#### Decision Implication
-
-The pilot remains profitable, but utilization leakage and approval failures eliminate nearly half of expected margin. Before expanding into a PSA implementation, approval workflows and cost allocation governance must be corrected.
-
----
-
-### Formula Reference
-
-<details>
-<summary>Validation Engine</summary>
-
-```excel
-=UNIQUE(
-FILTER(
-RAW_ASANA[Project],
-ISERROR(
-XLOOKUP(...)
-)
-)
-)
-```
-
-```excel
-=FILTER(
-EmployeeDatePairs,
-DailyHours>15
-)
-```
-
-</details>
-
-<details>
-<summary>Master Timesheet Engine</summary>
-
-```excel
-=FILTER(
-HSTACK(...),
-ApprovedFlag
-)
-```
-
-```excel
-=MAP(
-Employee,
-LAMBDA(
-emp,
-XLOOKUP(...)
-)
-)
-```
-
-</details>
-
-<details>
-<summary>Dashboard Engine</summary>
-
-```excel
-=UNIQUE(...)
-=MAP(...)
-=SUMIFS(...)
-=LET(...)
-=IFS(...)
-```
-
-</details>
-
----
-
-### Validation Rules
-
-| Field           | Rule                | Error Behavior       |
-| --------------- | ------------------- | -------------------- |
-| Employee_ID     | Unique              | Reject               |
-| Employee_Name   | Must exist          | Flag                 |
-| Project_Name    | Must exist          | Flag                 |
-| Work_Date       | Cannot exceed today | Reject               |
-| Hours           | 0 < Hours ≤ 16      | Flag                 |
-| Approved_Status | Approved only       | Exclude              |
-| Cost_Center     | Mandatory           | Flag                 |
-| Billing_Type    | Enumerated          | Default Non-Billable |
-| Employee Active | TRUE only           | Exclude              |
-| Daily Hours     | ≤15 recommended     | Alert                |
-
-</details>
-
----
-
-## Other Tools in This Series
-
-* **Inventory Planning & Replenishment Control Center** — Safety stock, reorder point, and working capital decisions.
-* **Multifamily Acquisition Model** — Real estate acquisition underwriting and scenario analysis.
-* **Google Ads Marketing Truth Audit System** — Marketing attribution and budget validation.
-* **Dual-Track Personal & Business Budget System** — Integrated cash flow and allocation planning.
-* **Cross-Entity Logistics Operations Console** — Shipment, customs, and operational exception management.
-
-More tools available via GitHub profile and release repository.
+*Discover more decision-support templates and open-source models via my GitHub profile and release repository.*
 
 ---
 
 ## License
 
-This project is licensed under the **Apache License 2.0**.
-
-See the LICENSE file for details.
+This project is open-source and licensed under the **Apache License 2.0**.
+See the [LICENSE](https://www.google.com/search?q=LICENSE) file for full legal details and attribution requirements.
