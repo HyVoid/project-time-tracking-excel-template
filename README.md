@@ -10,7 +10,7 @@
 
 Try the cloud-based interactive dashboard for free. If you need the fully customizable spreadsheet file for your corporate environment, purchase the offline version backed by a 7-day money-back guarantee.
 
-> 🌐 **Live Demo:** → [*Try the Free Interactive Timesheet & Cost Dashboard in Browser*](https://hyvoid.github.io/Project-Time-Cost-Analysis-Console/)
+> 🌐 **Live Demo:** → [*Try the Free Interactive Timesheet & Cost Dashboard in Browser*](https://hyvoid.github.io/project-time-tracking-excel-template/)
 > 
 > 📥 **Download Template:** [*Download the Reusable Labor Cost Analysis Excel Template*](https://alexhasgreatestuff.gumroad.com/l/njmty?wanted=true)
 
