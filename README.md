@@ -12,7 +12,7 @@ Try the cloud-based interactive dashboard for free. If you need the fully custom
 
 > 🌐 **Live Demo:** → [*Try the Free Interactive Timesheet & Cost Dashboard in Browser*](https://hyvoid.github.io/project-time-tracking-excel-template/)
 > 
-> 📥 **Download Template:** [*Download the Reusable Labor Cost Analysis Excel Template*](https://alexhasgreatestuff.gumroad.com/l/njmty?wanted=true)
+> 📥 **Download Template:** [*Download the Reusable Labor Cost Analysis Excel Template*](https://alexhasgreatestuff.gumroad.com/l/njmty)
 
 ---
 
@@ -37,7 +37,7 @@ Follow this streamlined tutorial to transform raw timesheets into actionable fin
 2. **Capture Hidden Overhead (Meeting Tracker):** Log internal meetings and administrative time in the `RAW_MEETING` tab to reveal non-billable utilization leaks.
 3. **Map Cost Centers (Resource Allocation):** Assign employees to specific billing rates, roles, and financial departments in the `EMPLOYEE_MAP` configuration tab.
 4. **Analyze True Margins (Decision Dashboard):** Review the auto-generated `DASHBOARD` to identify missing approvals, correct unallocated hours, and view the *actual* profit margin.
-5. **Standardize Your Process (Call to Action):** Finished your one-time trial audit? 📥 **[Download the fully unlocked Labor Cost Analysis Excel Template](https://alexhasgreatestuff.gumroad.com/l/njmty?wanted=true)** to securely run your monthly financial consolidation and project billing cycles repeatedly.
+5. **Standardize Your Process (Call to Action):** Finished your one-time trial audit? 📥 **[Download the fully unlocked Labor Cost Analysis Excel Template](https://alexhasgreatestuff.gumroad.com/l/njmty)** to securely run your monthly financial consolidation and project billing cycles repeatedly.
 
 ---
 
