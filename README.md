@@ -8,7 +8,7 @@
 
 **No signup. No installation. Free in your browser.**
 
-Try the cloud-based interactive dashboard for free. If you need the fully customizable spreadsheet file for your corporate environment, purchase the offline version backed by a 7-day money-back guarantee.
+Try the cloud-based interactive dashboard for free. If you need the fully customizable spreadsheet file for your corporate environment, purchase the offline version backed by a 30-day, no-questions-asked money-back guarantee.
 
 > 🌐 **Live Demo:** → [*Try the Free Interactive Timesheet & Cost Dashboard in Browser*](https://hyvoid.github.io/project-time-tracking-excel-template/)
 > 
