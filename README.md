@@ -124,6 +124,9 @@ This robust framework is purpose-built to match specific professional workflows:
 
 ---
 
+<details>
+<summary>For technical reviewers, Excel practitioners, and collaborators</summary>
+
 ### Data Architecture & Workflow
 
 ```text
@@ -181,6 +184,8 @@ DASHBOARD (Decision Support & Analytics Layer)
 * **Decision made:** Blindly accept submitted labor records for invoicing.
 * **Faulty assumption:** Employees do not accidentally over-report across multiple tracking apps.
 * **Corrected approach:** Validate daily aggregation thresholds before financial posting.
+
+</details>
 
 ---
 
