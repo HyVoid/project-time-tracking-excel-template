@@ -187,7 +187,7 @@ export default function App() {
     const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(backupData, null, 2));
     const downloadAnchor = document.createElement('a');
     downloadAnchor.setAttribute("href", dataStr);
-    downloadAnchor.setAttribute("download", `project_cost_console_backup_${new Date().toISOString().split('T')[0]}.json`);
+    downloadAnchor.setAttribute("download", `project-time-tracking-excel-template-backup-${new Date().toISOString().split('T')[0]}.json`);
     document.body.appendChild(downloadAnchor);
     downloadAnchor.click();
     downloadAnchor.remove();
@@ -662,16 +662,18 @@ export default function App() {
       
       {/* ── STICKY TOP NAVIGATION BAR (56px) ── */}
       <header className="sticky top-0 z-50 h-14 bg-white border-b border-[var(--color-border)] shadow-[0_1px_2px_rgba(0,0,0,0.01)] flex items-center justify-between px-10">
-        <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-md bg-[var(--color-primary)] flex items-center justify-center text-[var(--color-accent)] font-semibold text-sm">
-            T
+        <div className="flex items-center gap-3 shrink-0 mr-4">
+          <div className="w-8 h-8 rounded-md bg-[var(--color-primary)] flex items-center justify-center text-[var(--color-accent)] font-semibold text-xs tracking-wider">
+            TW
           </div>
-          <span className="font-eb-garamond text-xl font-bold tracking-tight text-[var(--color-primary)]">
-            PILOT CONSOLE
-          </span>
-          <span className="hidden md:inline text-[11px] font-semibold uppercase tracking-wider text-white bg-[var(--color-primary)] px-2 py-0.5 rounded-full ml-1">
-            Pilot v1.0
-          </span>
+          <div className="flex items-baseline gap-2.5">
+            <span className="font-eb-garamond text-xl font-bold tracking-[-0.02em] text-[var(--color-primary)] whitespace-nowrap">
+              Theseus Workshop
+            </span>
+            <span className="text-[12px] font-mono text-[var(--color-muted)] whitespace-nowrap">
+              project-time-tracking-excel-template
+            </span>
+          </div>
         </div>
 
         {/* Horizontal Navigation List */}
@@ -2043,13 +2045,14 @@ export default function App() {
       </main>
 
       {/* ── FOOTER INFORMATION ── */}
-      <footer className="bg-white border-t border-[var(--color-border)] py-5 px-10 text-center text-xs text-[var(--color-muted)] flex flex-wrap justify-between items-center max-w-[1400px] w-full mx-auto">
+      <footer className="bg-white border-t border-[var(--color-border)] py-5 px-10 text-center text-xs text-[var(--color-muted)] flex flex-wrap justify-between items-center max-w-[1400px] w-full mx-auto gap-4">
         <div className="flex items-center gap-2">
-          <span>Excel Project Work Consolidation Controls Pilot Dashboard</span>
-          <span className="bg-[var(--color-primary)]/5 text-[var(--color-primary)] px-2 py-0.5 rounded text-[10px] font-bold">15-Person Group</span>
+          <span className="font-semibold text-[var(--color-primary)]">Theseus Workshop</span>
+          <span className="text-[var(--color-muted)]">·</span>
+          <span>project-time-tracking-excel-template</span>
         </div>
         <div>
-          <span>Bespoke design for financial analysts. Built with React 19 & Tailwind CSS.</span>
+          <span>All data in this tool is stored in your browser's localStorage. The page itself does not retain any user data.</span>
         </div>
       </footer>
 
