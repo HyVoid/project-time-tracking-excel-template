@@ -1,128 +1,205 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Project Time Tracking & Labor Cost Allocation Excel Template: Your Financial Control Center
-<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/093d4b42-8904-46e1-9444-0f857b7ee22f" />
+# Project Time Tracking Excel Template & Labor Cost Allocation Spreadsheet (1-Click Project Profitability Calculator)
+<img width="1920" height="827" alt="image" src="https://github.com/user-attachments/assets/4a4ed08e-de2d-4e63-8612-657a90bff2d9" />
 
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-green.svg)
-![Tool](https://img.shields.io/badge/Tool-Decision%20Support-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-Web%20Browser%20%2B%20Microsoft%20Excel-green.svg)
+![Level](https://img.shields.io/badge/Skill%20Level-Beginner%20Friendly%20(Copy%20%26%20Paste)-orange.svg)
 
-<p><strong>Transform fragmented timesheets and approved project time entries into a single source of truth for labor cost allocation, resource utilization analysis, and project profitability tracking.</strong> This browser-based tool and downloadable spreadsheet serves as an alternative to expensive PSA (Professional Services Automation) software, offering a definitive financial control center with no installation and no signup required.</p>
+<p><strong>Looking for a ready-to-use <em>project time tracking Excel template</em>, <em>labor cost allocation spreadsheet</em>, and <em>billable hours tracker</em>?</strong> This beginner-friendly <strong>project profitability calculator</strong> and <strong>employee utilization tracker</strong> turns messy timesheets, meeting logs, and hourly pay rates into an automated financial dashboard in under 1 minute. Built for small business owners, freelancers, agencies, and first-time project managers, this free browser tool and downloadable Microsoft Excel spreadsheet eliminates manual formula errors—acting as an instant, zero-setup alternative to complex PSA (Professional Services Automation) or project accounting software.</p>
 
-**No signup. No installation. Free in your browser.**
+**No signup. No installation. No Excel formula skills required.**
 
-Try the cloud-based interactive dashboard for free. If you need the fully customizable spreadsheet file for your corporate environment, purchase the offline version backed by a 30-day, no-questions-asked money-back guarantee.
+Test your numbers immediately in our free interactive web calculator, or download the unlocked, reusable Excel template with pre-built dynamic formulas—backed by a 30-day, no-questions-asked money-back guarantee.
 
-> 🌐 **Live Demo:** → [*Try the Free Interactive Timesheet & Cost Dashboard in Browser*](https://hyvoid.github.io/project-time-tracking-excel-template/)
+> 🌐 **Live Web App (Free Sandbox):** → [*Launch the Free Online Project Time Tracking & Labor Cost Calculator in Your Browser*](https://hyvoid.github.io/project-time-tracking-excel-template/)
 > 
-> 📥 **Download Template:** [*Download the Reusable Labor Cost Analysis Excel Template*](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=project-time-tracking)
+> 📥 **Full Excel Download (Reusable File):** → [*Download the Pre-Built Labor Cost Allocation & Project Profitability Excel Template (.xlsx)*](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=project-time-tracking)
 
 ---
 
-## What It Helps You Track: Project Financial Pain Points vs. Solutions
+## What It Helps You Track: Beginner Project Cost Pain Points vs. Automated Excel Solutions
 
-Instead of simply logging hours, this framework maps operational inefficiencies directly to financial solutions:
+Instead of just logging daily work hours, this **project cost tracking spreadsheet** maps common small-business operational blind spots directly to automated financial solutions:
 
-* **Pain Point: Unapproved "Shadow Work"** → **Solution:** Tracks submitted but unapproved labor hours that leak out of standard financial reporting and operating margins.
-* **Pain Point: Inaccurate Cost Allocation** → **Solution:** Maps actual project labor costs accurately to the specific employee, project portfolio, department, and accounting cost center.
-* **Pain Point: Invisible Meeting Drain** → **Solution:** Visualizes employee utilization and hidden internal meeting overhead within the same operational dashboard.
-* **Pain Point: Contaminated Financial Data** → **Solution:** Flags unmapped projects and missing master data *before* they corrupt your end-of-month financial reconciliation.
-* **Pain Point: Skewed Profitability** → **Solution:** Differentiates billable versus non-billable labor allocation across the entire organizational resource pool.
-* **Pain Point: Blind Software Purchases** → **Solution:** Audits whether your existing operational workflows are mature enough to justify an enterprise PSA/ERP system investment.
-
----
-
-## Quick Start Workflow: How to Audit Your True Labor Costs
-
-Follow this streamlined tutorial to transform raw timesheets into actionable financial metrics:
-
-1. **Input Timesheet Data (Data Ingestion):** Paste your raw exported project hours from tools like Asana, Jira, or Monday.com directly into the `RAW_ASANA` tab.
-2. **Capture Hidden Overhead (Meeting Tracker):** Log internal meetings and administrative time in the `RAW_MEETING` tab to reveal non-billable utilization leaks.
-3. **Map Cost Centers (Resource Allocation):** Assign employees to specific billing rates, roles, and financial departments in the `EMPLOYEE_MAP` configuration tab.
-4. **Analyze True Margins (Decision Dashboard):** Review the auto-generated `DASHBOARD` to identify missing approvals, correct unallocated hours, and view the *actual* profit margin.
-5. **Standardize Your Process (Call to Action):** Finished your one-time trial audit? 📥 **[Download the fully unlocked Labor Cost Analysis Excel Template](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=project-time-tracking)** to securely run your monthly financial consolidation and project billing cycles repeatedly.
+| Common Beginner Pain Point (What You Experience) | Hidden Financial Leak (Why You Lose Money) | Automated Excel Template Solution (What This Tool Does) |
+| :--- | :--- | :--- |
+| **"My team is busy, but bank cash is low"** *(Unapproved Shadow Work)* | Employees submit extra project hours in Asana/Jira that never get billed or approved, silently destroying your **project profit margin**. | **Automated Timesheet Reconciliation:** Automatically flags submitted vs. unapproved labor hours before they leak out of your monthly profit and loss (P&L) report. |
+| **"I don't know how much each project actually costs"** *(Guesswork Cost Allocation)* | You pay monthly salaries, but have no idea how much **hourly labor cost** went into Client A vs. Client B. | **1-Click Labor Cost Allocation:** Maps exact employee hourly rates and payroll costs to specific client projects, departments, and **accounting cost centers**. |
+| **"Internal meetings eat up our whole week"** *(Invisible Meeting Drain)* | Unbilled team syncs and client alignment calls reduce your **billable utilization rate** without showing up on invoices. | **Meeting Overhead Calculator:** Tracks internal meeting time alongside project tasks in a single **employee utilization dashboard** to expose non-billable time leaks. |
+| **"End-of-month billing takes days of messy Excel work"** *(Broken Spreadsheets)* | Missing project IDs, typos, and broken `VLOOKUP` formulas ruin your **month-end financial close** and client invoicing. | **Built-In Data Validation & Error Flags:** Highlights unmapped projects and missing master data automatically—no manual **spreadsheet formula debugging** needed. |
+| **"I can't tell which clients are worth keeping"** *(Skewed Client Profitability)* | You judge clients by top-line invoice revenue while ignoring **scope creep**, unbilled revisions, and over-servicing costs. | **Billable vs. Non-Billable Profit Tracker:** Separates billable project work from non-billable overhead to calculate your true **net project margin** per client. |
+| **"Enterprise tracking software is too expensive and complex"** *(Software Overload)* | Paying thousands for ERP or PSA software when your team hasn't even standardized basic **timesheet and job costing workflows**. | **Zero-Setup Excel Control Center:** Gives you enterprise-grade **project cost control** in a familiar Excel workbook—just copy, paste, and read the results. |
 
 ---
 
-## Why I Built This Cost Control Center
+## Quick Start Tutorial: How to Calculate True Project Labor Costs in 1 Minute (Copy & Paste Workflow)
 
-Many organizations do not fail because they lack project portfolio management (PPM) systems. They fail because they cannot reliably answer a fundamental financial question:
+You do not need to understand complex accounting rules or write a single Excel formula. We have already engineered all the dynamic lookup rules, cross-sheet matching, and automatic summary formulas inside the workbook. **You do not even need to double-click the cell corner to drag and copy formulas down.**
 
-> **"How much did this client project actually cost us in labor?"**
+Follow this 5-step workflow to go from raw time logs to executive-level decisions in 60 seconds:
 
-In professional services, labor cost allocation often breaks down across disconnected silos:
-1. Employees log time in project management software (task tracking).
-2. Operations managers approve work inconsistently (workflow bottlenecks).
-3. Finance teams allocate costs using assumptions and manual spreadsheets created after the fact (financial reconciliation).
+1. **Paste Raw Timesheet Data (Task Time Tracker):** Export your raw project hours from Asana, Jira, Monday.com, Toggl, or CSV time logs and paste them directly into the `RAW_ASANA` tab.
+2. **Paste Internal Meeting Logs (Overhead Time Tracker):** Drop your team's calendar hours or administrative meeting logs into the `RAW_MEETING` tab to capture hidden **non-billable utilization leaks**.
+3. **Enter Hourly Pay Rates & Roles (Employee Rate Card):** Type your team members' hourly cost rates, billing roles, and departments once into the `EMPLOYEE_MAP` setup table.
+4. **View Instant Profit & Utilization Metrics (Auto-Generated Dashboard):** Switch to the `DASHBOARD` tab. All calculations update instantly—showing you missing approvals, unallocated labor dollars, **employee utilization percentages**, and **real project gross margins**.
+5. **Save & Reuse Every Month (1-Click Decision Engine):** Done with your browser test? Stop wasting your busy season fixing broken spreadsheets. 📥 **[Download the Reusable Project Time Tracking & Labor Cost Excel Template](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=project-time-tracking)** to your local computer. Simply paste your own data each week or month to get instant **business analysis feedback** in 1 minute—turning any beginner into a sharp financial analyst so you can focus on high-value business decisions.
 
-The result is a hidden analytical failure: organizations believe they are measuring actual project profitability when they are merely measuring reporting compliance. 
+---
 
-I built this analytical spreadsheet after repeatedly observing this operational disconnect:
+## Why I Built This Project Cost & Utilization Spreadsheet
 
-| Operational Reality (Actual Resource Usage) | Financial Reporting (System Data) |
-| ------------------------------------------- | --------------------------------- |
-| Employee worked 42 total billable hours | Only 28 approved hours reached the finance department |
-| 8 hours spent in unlogged client alignment meetings | Non-billable meeting costs disappeared from the ledger |
-| Project lacked formal CRM/Cost Center mapping | Labor expense was assigned manually via guesswork |
-| **Project appeared highly profitable** | **Project actually generated a negative operating margin** |
+Most service businesses, agencies, and project teams do not lose money because they lack work. They lose money because they cannot accurately answer one basic question:
 
-### Case Study: The Danger of Incomplete Data
+> **"After paying for everyone's actual time and meetings, how much money did we truly make on this project?"**
 
-A consulting project dashboard reported:
+In daily operations, **project time tracking and labor cost accounting** break down across three disconnected steps:
+1. Team members log task hours in project management tools (Asana, Trello, Jira, ClickUp).
+2. Managers approve timesheets inconsistently or forget to log scope-creep revisions.
+3. Bookkeepers or founders try to calculate **project profitability** at month-end using guesswork and manual spreadsheets.
+
+The result is a dangerous financial blind spot: you think you are tracking **real project profit margins**, when you are only looking at incomplete surface data.
+
+### Operational Reality vs. Standard Accounting Spreadsheets
+
+| Real-World Team Operations (What Actually Happened) | Standard Timesheet & Accounting Data (What Your Old Sheet Shows) | Financial Impact on Your Business |
+| :--- | :--- | :--- |
+| Designer worked **42 actual hours** on client deliverables (including unbilled revisions) | Only **28 approved billable hours** were exported to the billing spreadsheet | **14 hours of direct payroll cost** vanish from project cost tracking |
+| Team spent **8 hours in internal alignment and status meetings** for the client | Meeting hours are ignored in standard **task time trackers** | **Non-billable overhead** silently eats up your gross margin |
+| New project was started without a formal **Cost Center ID or CRM code** | Bookkeeper dumps the payroll expense into general "company overhead" | Project looks profitable on paper while actually **losing money** |
+| **Actual Result: Negative Operating Margin (Money-Losing Project)** | **Reported Result: "56% High-Profit Client"** | **Bad Business Decision: You sign more low-price deals that drain cash** |
+
+### Real-World Example: How Hidden Time Leaks Destroy a 56% Profit Margin
+
+**Before (What a basic revenue vs. approved-hours sheet tells you):**
 
 ```text
-Recognized Revenue:   $48,000
-System Labor Cost:    $21,000
-Reported Gross Margin: 56%
+Client Invoice Revenue:        $48,000
+Logged Approved Labor Cost:    $21,000
+Reported Gross Profit Margin:  56% (Looks like a star project!)
 
 ```
 
-### After Applying Structured Timesheet Validation
+**After (What this automated Excel Cost Control Center reveals in 1 minute):**
 
 ```text
-Unapproved "Shadow" Hours:   +38h
-Internal Meeting Overhead:   +17h
-Missing CC Allocation:       +$4,350
-Actual True Labor Cost:      $33,750
-Actual Gross Margin:         30%
+Unapproved "Shadow Work" Hours:   +38 hrs (Scope creep & extra revisions)
+Internal Meeting Overhead:        +17 hrs (Status calls & team syncs)
+Unmapped Cost Center Labor:       +$4,350 (Forgotten support staff time)
+------------------------------------------------------------------------
+Actual True Labor Cost:           $33,750 (vs. $21,000 assumed)
+Actual True Gross Profit Margin:  30% (Nearly half the profit was an illusion)
 
 ```
 
-The executive decision regarding this client's profitability changed completely. This workbook is not just a reporting visualization; it is a **productized reasoning framework** for a recurring business operation: *Determining which labor costs are clean enough to support strategic business decisions.*
+Seeing a 30% true margin instead of 56% completely changes how you price future quotes, manage scope creep, and allocate staff.
 
 ---
 
-## Use Cases & Target Scenarios for Labor Cost Tracking
+## The Business Logic & Methodology: Exposing Hidden Profit Blind Spots for Beginners
 
-This tool serves as a bridging solution for specific industry scenarios that fall between basic spreadsheets and heavy enterprise software:
+You do not need an MBA or an accounting degree to run a profitable project business, but you do need to avoid common **financial decision blind spots**. Many founders and new project managers assume that *"if my team is 100% busy and clients are paying invoices, we must be making money."*
 
-* **Agency Profitability Audits:** Marketing and creative agencies needing to measure actual client retention margins versus expected billable hours.
-* **Pre-ERP Implementation Data Cleansing:** Operations teams preparing to migrate to platforms like NetSuite or Workday, needing a sandbox to clean up cost center mappings.
-* **Consulting Firm Utilization Tracking:** Boutique consulting firms tracking consultant bench time, utilization rates, and project over-servicing (scope creep).
-* **Cross-Department Chargebacks:** IT or internal shared services teams needing to accurately charge back project hours to different business units.
+**Objective Reality:** High revenue and a busy team often hide severe cash leaks. If you only track top-line sales and rough task hours, you cannot see which projects are subsidizing others. This Excel template automates five core business logic rules so beginners can spot profit leaks immediately:
+
+### 1. Eliminating the "Busyness vs. Billability" Blind Spot (Employee Utilization Logic)
+
+* **The Blind Spot:** Paying an employee for 40 hours a week while only billing 22 of those hours to clients. If you do not separate **billable hours**, **internal meeting overhead**, and **unallocated bench time**, you overestimate your team's real capacity and underprice your services.
+* **How the Excel Logic Fixes It:** The workbook automatically merges task logs (`RAW_ASANA`) with meeting logs (`RAW_MEETING`) and compares them against available capacity:
+
+$$\text{Total Recorded Hours} = \text{Billable Project Hours} + \text{Non-Billable Project Hours} + \text{Internal Meeting Hours}$$
+
+$$\text{Billable Utilization Rate} = \frac{\text{Billable Project Hours}}{\text{Total Available Capacity Hours}}$$
+
+* **Direct Benefit:** You immediately see whether low profitability is caused by slow project execution, excessive internal meetings, or under-utilized staff.
+
+### 2. Catching "Shadow Work" & Scope Creep Before It Wrecks Your Margin (Approval Variance Logic)
+
+* **The Blind Spot:** Employees often work extra hours to please a demanding client without getting formal approval, or managers forget to approve pending timesheets before invoicing. In standard accounting, unapproved hours are ignored—making your labor costs look artificially low.
+* **How the Excel Logic Fixes It:** Instead of discarding unapproved entries, the spreadsheet calculates both **Approved Labor Cost** and **Unapproved Shadow Labor Cost** side by side:
+
+$$\text{True Project Labor Cost} = (\text{Approved Hours} \times \text{Hourly Cost Rate}) + (\text{Unapproved Shadow Hours} \times \text{Hourly Cost Rate}) + \text{Allocated Meeting Cost}$$
+
+* **Direct Benefit:** You catch **scope creep** and unbilled client revisions early, giving you hard data to renegotiate retainers or stop over-servicing unprofitable accounts.
+
+### 3. True Project Gross Margin Calculation (Job Costing Logic)
+
+* **The Blind Spot:** Judging a project's success by invoice size alone. A $50,000 project that consumes $45,000 in senior staff time and meeting overhead is far worse for your bank account than a $15,000 project that costs $6,000 to deliver.
+* **How the Excel Logic Fixes It:** The job-costing engine deducts fully loaded labor and meeting costs from net project revenue automatically:
+
+$$\text{Actual Project Gross Profit} = \text{Net Project Revenue} - \text{True Project Labor Cost}$$
+
+$$\text{Actual Project Profit Margin (\%)} = \frac{\text{Actual Project Gross Profit}}{\text{Net Project Revenue}}$$
+
+* **Direct Benefit:** Rank every project and client by **true net dollar contribution** rather than vanity revenue numbers.
+
+### 4. Master Data Hygiene & Cost Center Reconciliation (Anti-Error Logic)
+
+* **The Blind Spot:** When a new project or freelancer is added to a task tracker without being added to your accounting list, standard Excel `VLOOKUP` sheets either throw `#N/A` errors or silently drop those costs from your summary totals.
+* **How the Excel Logic Fixes It:** The template cross-checks every time entry against `EMPLOYEE_MAP` and cost center rules. Any unmapped employee, missing hourly rate, or orphan project ID is isolated in a dedicated **Data Hygiene Audit** section.
+* **Direct Benefit:** 100% confidence that your month-end numbers are clean, complete, and audit-ready—even if your raw exported data was messy.
+
+### 5. Zero-Maintenance Automation (Paste-and-Go Architecture)
+
+```text
+Raw Task Hours (Asana/Jira/CSV)  +  Meeting Logs  +  Employee Hourly Rates
+                                        ↓
+              [ Pre-Built Automated Matching & Validation Engine ]
+              (No manual formula dragging / No broken VLOOKUPs)
+                                        ↓
+   True Labor Cost  →  Utilization Rate  →  Shadow Work Alerts  →  Real Profit Margin
+
+```
+
+| Core Business Methodology | Hidden Beginner Blind Spot Solved | Immediate Practical Value |
+| --- | --- | --- |
+| **Shadow Work & Approval Tracking** | Unbilled scope creep & forgotten timesheets | Recover lost billable hours & stop over-servicing |
+| **Meeting Overhead Allocation** | "Death by meetings" draining productive capacity | Cut unnecessary internal syncs & boost billable time |
+| **Role-Based Labor Cost Mapping** | Treating expensive senior hours the same as junior hours | Accurate **project job costing** & smarter staffing |
+| **Automated Data Hygiene Checks** | Silent spreadsheet errors & missing cost centers | Error-free month-end reporting in 60 seconds |
 
 ---
 
-## Who This Is For: Target Roles & Matching Solutions
+## When to Use This Excel Timesheet & Cost Tracker (High-Impact Scenarios)
 
-This robust framework is purpose-built to match specific professional workflows:
+Whether you are running a 5-person studio or managing a 50-person department, this **project time and cost spreadsheet** solves immediate operational bottlenecks:
 
-* **PMO Directors** needing a *project portfolio cost tracking template* to govern pilot project accounting processes.
-* **Operations Managers** searching for a *professional services utilization tracker* to evaluate PSA readiness for a 10–100 employee team.
-* **Financial Controllers** utilizing an *employee timesheet reconciliation spreadsheet* for accurate month-end labor cost allocation.
-* **Delivery Leads** running Asana-based or Jira-based workflows who need a *project profitability analysis framework* that connects tasks to dollars.
-
-**This tool is NOT designed for:**
-
-* Enterprise ERP replacement (e.g., replacing SAP or Oracle).
-* Real-time automated payroll processing.
-* Multi-country tax compliance and localized statutory reporting.
-* Highly customized, API-driven Professional Services Automation (PSA) implementations.
-
-*No advanced spreadsheet formulas expertise is required. Open the browser version and begin auditing immediately. Excel power users can extend the underlying VBA/DAX analytical framework as required.*
+* **Marketing, Design & Software Agency Profitability Audits:** Measure actual client retainer margins against logged hours to see which monthly clients are secretly unprofitable due to endless revisions.
+* **Freelancer & Boutique Consulting Utilization Tracking:** Track consultant bench time, billable vs. non-billable utilization rates, and fixed-fee project profitability without paying monthly SaaS fees.
+* **Busy-Season Month-End Payroll & Cost Allocation:** Quickly split employee wages across multiple departments, grant funds, or **accounting cost centers** for monthly bookkeeping and tax reconciliation.
+* **Pre-Software / Pre-ERP Cleanup:** Clean up your team's time-tracking habits and cost center naming conventions in a flexible Excel sandbox before committing to expensive software like NetSuite, Harvest, or Kantata.
+* **Internal IT & Shared Services Chargebacks:** Accurately calculate and charge back internal support hours to different business units using transparent timesheet data.
 
 ---
+
+## Who This Is For: Roles, Beginner Workflows & Searchable Solutions
+
+We designed this tool so both **first-time spreadsheet users** and **experienced operations leads** get immediate answers:
+
+* **Small Agency Owners & Studio Founders** searching for a *client profitability and billable hours Excel template* to stop losing money on fixed-price projects and retainers.
+* **Junior & Mid-Level Project Managers** needing a *plug-and-play project time tracking spreadsheet* to monitor team workload, meeting overhead, and budget burn without building complex pivot tables.
+* **Operations Coordinators & Office Managers** looking for an *employee utilization tracker template in Excel* to report weekly team capacity and non-billable hours in 1 minute.
+* **Bookkeepers, Accountants & Financial Controllers** utilizing a *timesheet reconciliation and labor cost allocation spreadsheet* for clean month-end payroll distribution across cost centers.
+* **Asana, Jira, Trello & Monday.com Users** who need a *project cost calculator spreadsheet* that turns basic task hour exports into real dollar profit margins.
+
+**When NOT to use this tool (Honest Boundaries):**
+
+* You need a full enterprise ERP replacement (e.g., SAP, Oracle, Workday) with automated multi-currency tax filings.
+* You require live biometric clock-in/clock-out hardware integration or direct automated bank payroll disbursement.
+
+---
+
+## About Theseus Workshop & More Ready-to-Use Business Templates
+
+This **Project Time Tracking & Labor Cost Allocation Excel Template** is engineered by **Theseus Workshop**—a studio dedicated to turning complex financial, operational, and management frameworks into **1-click, beginner-friendly Excel spreadsheets and decision support tools**.
+
+We believe small business owners, managers, and operators shouldn't have to spend weeks learning advanced spreadsheet formulas or paying thousands for bloated enterprise software just to see their true numbers. Every template we build comes pre-loaded with automated calculation engines: just paste your raw data and get immediate, actionable clarity in 1 minute.
+
+* 📥 **Get This Full Excel Template:** **[Download the Reusable Project Time Tracking & Labor Cost Allocation Spreadsheet on Gumroad](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=project-time-tracking)**
+* 🧰 **Explore Our Complete Toolkit:** Visit the **[Theseus Workshop Official Store (Business & Financial Excel Templates)](https://www.google.com/search?q=https://www.theseusworkshop.com%3Futm_source%3Dgithub%26utm_medium%3DGitHub%2520README%26utm_campaign%3Dreadme%2520new%2520launch%26utm_content%3Dabout-section)** to browse more plug-and-play templates for contractor job costing, cash flow forecasting, pricing strategy, and small business operations.
+
 
 ## Technical Details
 
@@ -190,112 +267,6 @@ DASHBOARD (Decision Support & Analytics Layer)
 * **Corrected approach:** Validate daily aggregation thresholds before financial posting.
 
 </details>
-
----
-
-## The Business Logic & Methodology
-
-Contractor profitability is not determined by the quoted price alone. It depends on how accurately a contractor estimates labor and material costs, controls actual project execution, identifies cost overruns, and evaluates the profit generated by each job and customer relationship.
-
-Contractor Operations & Profitability Management System applies a connected project-costing and operational-control methodology to help small and mid-sized contractors bridge the gap between estimating, field execution, job costing, and profitability analysis — using Excel rather than a complex ERP implementation.
-
-### 1. Lead-to-Job Workflow Management
-
-Business problem: Contractor businesses often manage sales leads, estimates, approved contracts, and project execution in separate spreadsheets. This fragmentation makes it difficult to trace an opportunity from its initial inquiry to its final financial outcome.
-
-Methodology: A connected lead-to-job workflow links each stage of the commercial process through structured identifiers, including `Lead_ID`, `Quote_ID`, and `Job_ID`.
-
-```
-Lead Management
-      ↓
-Construction / Contractor Estimating
-      ↓
-Quote and Contract Approval
-      ↓
-Project Execution
-      ↓
-Job Costing and Profitability
-      ↓
-Customer History
-```
-
-Business outcome: Maintain continuity between sales pipeline management, contractor estimating, project tracking, and financial performance. Management can trace the relationship between the original opportunity, the approved estimate, actual project costs, and the final commercial result.
-
-### 2. Estimate-to-Actual Cost Variance Analysis
-
-Business problem: A project may appear profitable when quoted but lose margin during execution because actual labor hours, material consumption, or indirect costs exceed the original assumptions.
-
-Methodology: The workbook preserves the approved estimate as a project cost baseline and compares it with actual labor and material costs recorded during execution. Configurable overhead allocation and cost-overrun thresholds support consistent project cost control.
-
-The core calculations are:
-
-\\[ \text{Estimated Total Cost} = \text{Estimated Labor} + \text{Estimated Materials} + \text{Estimated Overhead} \\]
-
-\\[ \text{Actual Total Cost} = \text{Actual Labor} + \text{Actual Materials} + \text{Actual Overhead} \\]
-
-\\[ \text{Cost Variance} = \text{Actual Total Cost} - \text{Estimated Total Cost} \\]
-
-Business outcome: Identify unfavorable cost variances, investigate their operational causes, and prioritize corrective action before project completion whenever the available data supports timely intervention.
-
-### 3. Job Costing and Project Profitability Analysis
-
-Business problem: Tracking project revenue without accounting for actual resource consumption and allocated overhead can create a misleading picture of contractor profitability.
-
-Methodology: The job-costing engine consolidates project-level labor and material transactions, applies the configured overhead methodology, and calculates actual profit and profit margin against tax-exclusive contract revenue.
-
-\\[ \text{Actual Project Profit} = \text{Net Contract Revenue} - \text{Actual Total Cost} \\]
-
-\\[ \text{Actual Profit Margin} = \frac{\text{Actual Project Profit}} {\text{Net Contract Revenue}} \\]
-
-Business outcome: Distinguish quoted profitability from actual project profitability, compare financial performance across jobs, and identify projects whose margins have deteriorated despite apparently acceptable contract values.
-
-### 4. Customer Profitability and Historical Performance
-
-Business problem: A customer generating substantial revenue is not necessarily a profitable customer. Repeated projects with low margins or frequent cost overruns may consume resources without producing an adequate financial contribution.
-
-Methodology: The customer-history module aggregates project results by customer, including cumulative contract revenue, profit contribution, project count, and average margin.
-
-```
-Completed Project Results
-          ↓
-Customer-Level Aggregation
-          ↓
-Revenue + Profit Contribution + Margin
-          ↓
-Historical Customer Evaluation
-```
-
-Business outcome: Support more informed customer prioritization, future quoting decisions, and commercial relationship reviews using historical project economics rather than revenue alone.
-
-Customer-level analysis is most reliable when project identifiers, customer names, contract values, and cost records are consistently maintained.
-
-### 5. Centralized Business Rules and Spreadsheet Automation
-
-Business problem: When tax rates, overhead percentages, target margins, and cost-overrun thresholds are hardcoded in different formulas, calculations can become inconsistent and difficult to maintain.
-
-Methodology: A centralized `Settings` sheet controls key business assumptions. Standard material and labor rates are maintained in shared reference tables, while Excel lookup functions and dynamic-array formulas propagate those inputs into estimating, job costing, and management analysis.
-
-Business outcome: Reduce duplicated data entry, improve calculation consistency, and make the model easier to adapt when operating assumptions change.
-
-### How the Methodology Works as One System
-
-The five methods operate as connected parts of a single contractor management framework.
-
-| Business Method                           | Primary Problem Addressed                            | Management Value                       |
-| ----------------------------------------- | ---------------------------------------------------- | -------------------------------------- |
-| Lead-to-job workflow management           | Disconnected sales and project records               | Commercial traceability                |
-| Estimate-to-actual variance analysis      | Unidentified project cost overruns                   | Earlier exception detection            |
-| Job costing and profitability analysis    | Inaccurate or delayed project margin visibility      | Better project-level financial control |
-| Customer profitability analysis           | Revenue-based customer evaluation                    | More informed customer prioritization  |
-| Centralized business rules and automation | Inconsistent assumptions and repetitive calculations | Maintainable, repeatable analysis      |
-
-The complete operating logic is:
-
-Lead → Estimate → Job → Labor & Materials → Job Cost → Profit → Customer History
-
-Rather than treating estimating, project management, and profitability reporting as separate spreadsheet tasks, the system connects them through a shared project-level data model.
-
-The result is a lightweight contractor operations management and job profitability analysis toolkit designed to help project-based businesses understand not only what they quoted or spent, but how operational execution affects project margins and long-term customer value.
 
 ---
 
